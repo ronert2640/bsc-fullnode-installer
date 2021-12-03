@@ -39,7 +39,7 @@ unzip mainnet.zip
 
 # Setup systemd
 ```
-sudo nano /lib/systemd/system/geth.service
+sudo vim /lib/systemd/system/geth.service
 ```
 
 Then paste the following;
