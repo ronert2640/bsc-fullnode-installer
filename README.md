@@ -21,7 +21,7 @@ chmod +x geth_linux
 
 # Create `start.sh` File.
 ```
-echo "./geth_linux --config ./config.toml --datadir ./mainnet --cache 48000 --rpc.allow-unprotected-txs --txlookuplimit 0 --http --maxpeers 500 --ws --syncmode=snap --snapshot=false --diffsync" > start.sh
+echo "./geth_linux --config ./config.toml --datadir ./mainnet --cache 16000 --rpc.allow-unprotected-txs --txlookuplimit 0 --http --maxpeers 1000 --ws --syncmode=snap --snapshot=false --diffsync" > start.sh
 chmod +x start.sh
 ```
 
